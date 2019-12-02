@@ -1,0 +1,97 @@
+.filters {
+    background-color:white;
+    height:70px;
+    width:100%;
+    border: 1px solid #DDDDDD;
+    border-radius:4px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+.filters button {
+    font-size:18px;
+    background-color:#FF5A5F;
+    color:#FFFFFF;
+    height:48px;
+    width:20%;
+    border:0;
+    border-radius:4px;
+    margin-left:auto;
+    margin-right:30px;
+}
+button:hover {
+    opacity: 0.9;
+}
+.filters .locations {
+    height:100%;
+    width:25%;
+    border-right:1px solid #DDDDDD;
+}
+.filters .locations h3 {
+    font-weight:600;
+    padding-left:30px;
+    margin:10px auto
+}
+.filters .locations h4 {
+    font-weight:400;
+    font-size:14px;
+    padding-left:30px;
+    margin:0;
+}
+.filters .locations:hover .popover {
+    display:block;
+}
+.filters .locations .popover {
+    padding-left:20px;
+    border:1px solid #DDDDDD;
+    background-color:#FAFAFA;
+    padding-top:20px;
+    padding-bottom:20px;
+    position:relative;
+    display:none;
+}
+.filters .locations .popover h2 {
+    margin:auto;
+    padding-top:10px;
+}
+.filters .locations .popover h4 {
+    padding-top:5px;
+}
+.filters .locations ul {
+    list-style:none;
+    padding-left:0px;
+}
+.filters .amenities {
+    height:100%;
+    width:25%;
+}
+.filters .amenities h3 {
+    font-weight:600;
+    padding-left:30px;
+    margin:10px auto;
+}
+.filters .amenities h4 {
+    font-weight:400;
+    font-size:14px;
+    padding-left:30px;
+    margin:0;
+}
+.filters .amenities:hover .popover {
+    display:block;
+}
+.filters .amenities .popover {
+    padding-left:0px;
+    border:1px solid #DDDDDD;
+    background-color:#FAFAFA;
+    padding-top:20px;
+    padding-bottom:20px;
+    position:relative;
+    display:none;
+}
+.filters .amenities .popover h4 {
+    padding-top:5px;
+}
+
+.filters .amenities ul {
+    list-style:none;
+}
